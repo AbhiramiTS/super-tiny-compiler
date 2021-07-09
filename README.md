@@ -9,6 +9,7 @@ This is a Python version of [The Super Tiny Compiler](https://github.com/thejame
 
 [JamieBuilds](https://github.com/jamiebuilds/the-super-tiny-compiler) developed a wonderfully educative compiler example a few years ago in Javascript, and this is a 250 line python implementation. It's the code for [this](https://youtu.be/jeOU6KJFi8c) live Battle Royale game show hosted by Siraj Raval on Youtube. It takes an input expression in LISP and converts it into C.
 
+<pre>
  If we had two functions `add` and `subtract` they would be written like this:
 
                   LISP                      C
@@ -16,7 +17,7 @@ This is a Python version of [The Super Tiny Compiler](https://github.com/thejame
    2 + 2          (add 2 2)                 add(2, 2)
    4 - 2          (subtract 4 2)            subtract(4, 2)
    2 + (4 - 2)    (add 2 (subtract 4 2))    add(2, subtract(4, 2))
-
+</pre>
 
 ## Dependencies
 
